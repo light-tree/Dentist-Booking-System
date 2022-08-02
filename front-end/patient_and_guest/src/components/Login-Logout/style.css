@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap");
+
+body {
+  /* background: rgb(34, 193, 195);
+  background: linear-gradient(
+    135deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  ); */
+  font-family: "work sans";
+}
+
+html {
+  font-size: 100%;
+}
+
+#loginform {
+  min-width: 600px;
+  max-height: 700px;
+  width: 30%;
+  height: 60%;
+  margin: 100px auto;
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+  padding: 0 100px;
+  margin: auto;
+}
+
+#headerTitle {
+  text-align: center;
+  font-family: "open sans", sans-serif;
+  padding: 1rem 0;
+  font-size: 35px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.7rem;
+}
+
+.row > input {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: none;
+  font-size: 35px !important;
+  padding: 10px;
+  text-align: center;
+  box-shadow: inset 0px -3px 0px 0px rgba(187, 187, 187, 0.2);
+  transition: box-shadow 0.2s ease-in;
+  border-radius: 10px;
+}
+
+.row input:focus {
+  box-shadow: inset 0px -3px 0px 0px rgba(34, 193, 195, 0.7);
+  outline: none;
+}
+
+.row input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
+}
+
+.row input:hover::-webkit-input-placeholder,
+.row input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.row label {
+  align-self: start;
+  padding-left: 1rem;
+  font-size: 18px;
+  color: rgba(187, 187, 187, 0.9);
+}
+
+.row > button {
+  text-decoration: none;
+  margin: 10px 10px 0 0;
+  padding: 10px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #0b0b90;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid rgb(11, 11, 144);
+}
+
+.row > button:hover {
+  background-color: white;
+  color: rgb(227, 151, 38);
+}
+
+#button {
+  padding-bottom: 1.5rem;
+}
+
+.logo {
+  box-sizing: border-box;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+#googleIcon {
+  width: 30px;
+  height: 30px;
+}
+
+#iconGroup {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+#iconGroup a {
+  margin: 0 0.6rem;
+}
+
+#alternativeLogin {
+  text-align: center;
+  padding: 1rem;
+}

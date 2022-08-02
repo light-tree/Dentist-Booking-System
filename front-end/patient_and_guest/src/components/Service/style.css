@@ -1,0 +1,200 @@
+.service-detail-container {
+  /* margin: 0 150px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-right: 150px;
+  position: relative;
+}
+
+.side-bar {
+  height: 85vh;
+  width: 17vw;
+  left: 150px;
+  margin-top: 20px;
+  flex-basis: 30%;
+  padding: 10px 0;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.492);
+  overflow-y: auto;
+  position: fixed;
+  overflow-x: hidden;
+  height: fit-content;
+  max-height: 60vh;
+}
+
+.side-bar > div > p {
+  padding: 10px;
+}
+
+.side-bar li button {
+  padding: 20px;
+  width: 80%;
+  margin: 10px 0;
+  background-color: #f1efef;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.side-bar li button:hover {
+  color: rgb(227, 151, 38) !important;
+  background-color: white !important;
+  border: 2px solid #0b0b90;
+}
+
+.service-detail {
+  flex-basis: 70%;
+  margin: 10px 0;
+  margin-left: 20vw;
+}
+
+.desc {
+  text-align: left;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+.img-service {
+  margin: auto;
+  width: 40vw;
+}
+
+.desc > div > h2 {
+  text-align: center;
+}
+
+.price {
+  margin: 10px 0;
+  opacity: 0.7;
+}
+
+.btn-appointmentService {
+  width: 100%;
+}
+.btn-appointmentService button {
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: #0b0b90;
+  border-radius: 20px;
+  margin: auto;
+  cursor: pointer;
+}
+.btn-appointmentService button:hover {
+  padding: 8px 18px;
+  border: 2px solid black;
+}
+
+/* ==================================================== */
+/* ==========FeedBack===================== */
+#feedback {
+  border: 1px solid rgba(128, 128, 128, 0.719);
+  border-radius: 7px;
+  min-height: 100px;
+  box-shadow: 1px 1px rgba(128, 128, 128, 0.337);
+  margin: 20px 5px;
+}
+
+.header-feedback {
+  text-align: left;
+  margin: 10px 20px;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.feedback-item {
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.337);
+  margin: 5px 14px;
+}
+
+.content-feedback,
+.cus_name {
+  text-align: left;
+  margin: 2px;
+}
+
+.cus_name {
+  font-weight: bolder;
+}
+
+.input-feedback {
+  text-align: left;
+  margin: 15px;
+  display: flex;
+}
+
+.time-feedback {
+  text-align: right;
+  padding: 10px;
+  color: rgba(128, 128, 128, 0.559);
+}
+
+.input-feedback textarea {
+  padding: 8px;
+  width: 100%;
+  min-height: 100px;
+  flex-basis: 1;
+  border: 1px solid rgba(128, 128, 128, 0.738);
+}
+
+.btn-feedback button {
+  background-color: #0b0b90;
+  padding: 10px 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #0b0b90;
+}
+
+.btn-feedback button:hover {
+  color: rgb(227, 151, 38) !important;
+  background-color: white !important;
+  border: 2px solid #0b0b90;
+}
+
+.btn-view-more {
+  width: 100%;
+}
+
+.view-more {
+  background-color: rgba(255, 255, 255, 0);
+  color: blue;
+  padding: 5px;
+}
+.view-more p {
+  margin-right: 2px;
+}
+
+.view-more:hover {
+  color: rgba(0, 0, 255, 0.5);
+}
+
+#view-more-hide {
+  display: none;
+}
+
+.icon-tag {
+  font-size: 20px !important;
+  color: red;
+  animation: discountTag 0.6s infinite;
+}
+
+@keyframes discountTag {
+  from {
+    /* width: 0px; */
+    opacity: 0.1;
+  }
+  50% {
+    /* width: 100%; */
+    opacity: 1;
+  }
+  to {
+    /* width: 0; */
+    opacity: 0.1;
+  }
+}

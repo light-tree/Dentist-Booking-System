@@ -1,0 +1,66 @@
+#signForm {
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.row input {
+  padding: 10px 5px;
+  font-size: 18px;
+}
+
+#content-sign {
+  justify-content: center;
+}
+
+.form-sign .row {
+  padding: 0;
+  text-align: right;
+}
+
+.col-right {
+  text-align: left;
+  justify-content: left;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.btn button {
+  width: 20vw;
+  text-decoration: none;
+  margin: 10px 10px 0 0;
+  padding: 10px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #0b0b90;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid rgb(11, 11, 144);
+}
+
+.btn button:hover {
+  background-color: white;
+  color: rgb(227, 151, 38);
+}
+
+.form-header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+.form-header h2 {
+  margin: auto 2px;
+  color: rgb(9, 196, 196);
+}
+.form-header img {
+  width: 70px;
+}

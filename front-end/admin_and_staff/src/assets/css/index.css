@@ -1,0 +1,43 @@
+.stock-button {
+    background: transparent;
+    padding: 7px 11px 10px 3px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .stock-button .fa {
+    font-size: 13px;
+    color: #FFF;
+    margin: 0px 5px;
+  }
+  .in-stock .stock-button {
+    color: #2BB700;
+    border: 1px solid #2BB700;
+  }
+  
+  .stock-status .circle-icon.fa-times {
+    background: #F33;
+    padding: 4px 6px;
+    border-radius: 50%;
+  }
+  
+  .stock-status .circle-icon.fa-check {
+    background: #2BB700;
+    padding: 4px 4px;
+    border-radius: 50%;
+  }
+  
+  .in-stock .stock-button:hover {
+    background: #2BB700;
+    color: #FFF;
+  }
+  
+  .in-stock .stock-button:hover .fa {
+    background: #FFF;
+    color: #2BB700;
+  } 
+  /*Service detail page*/
+ 
+  

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* vertical-align: middle; */
+  cursor: context-menu;
+  /* user-select: none; */
+}
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#body {
+  padding-top: 80px;
+  /* height: 1000px; */
+  margin: auto 10vw;
+  min-height: 90vh;
+}
+
+.App-slide,
+.App-slide * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.App-slide {
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  margin: auto;
+  color: #222;
+  font: normal normal normal 1rem/1.6 Nunito Sans, Helvetica, Arial, sans-serif;
+}
+
+.chatBox {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  font-size: 60px;
+  color: blue;
+  cursor: pointer;
+  /* width: 70px;
+  height: 70px; */
+}
+
+.chatBox:hover {
+  font-size: 70px;
+}
+
+.row {
+  flex-direction: row !important;
+}
+
+.icon-messenger {
+  /* background-color: red; */
+  /* width: 70px;
+  height: 70px; */
+  /* border: 10px solid black; black*/
+  /* animation: boxShowOut 0.8s infinite; */
+  /* border-radius: 50%; */
+}
+
+@keyframes boxShowOut {
+  from {
+    box-shadow: 0 0 0 0 0 gray;
+  }
+
+  to {
+    box-shadow: 0 0 20px 20px gray;
+  }
+}

@@ -1,0 +1,116 @@
+/* Nút Dropdown*/
+.button-dropdown {
+  background-color: #0080ff;
+  color: white;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+  width: auto;
+}
+
+/* Thiết lập vị trí cho thẻ div với class dropdown*/
+.dropdown {
+  position: relative;
+  display: block;
+  height: 80px;
+}
+
+/* Nội dung Dropdown */
+.content-dropdown {
+  /*Ẩn nội dụng các đường dẫn*/
+  display: none;
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  background-color: #f1f1f1;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.button-dropdown::after {
+  content: "";
+  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  right: -15px;
+}
+
+/* Thiết kế style cho các đường dẫn tronng Dropdown */
+.content-dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* thay đổi màu background khi hover vào đường dẫn */
+.content-dropdown a:hover {
+  background-color: #ddd;
+}
+
+/* hiển thị nội dung dropdown khi hover */
+.dropdown:hover .content-dropdown {
+  display: block;
+}
+
+/* Thay đổi màu background cho nút khi được hover */
+.dropdown:hover .button-dropdown {
+  /* background-color: #00bfff; */
+  color: rgb(227, 151, 38);
+}
+
+/*Dùng Để hiển thị nội dung*/
+.hienThi {
+  display: block;
+}
+
+@media only screen and (max-width: 950px) {
+  .dropdown:hover .content-dropdown {
+    display: none !important;
+  }
+}
+
+.text-notification:hover {
+  color: #0b0b90;
+}
+
+.box-notification {
+  background-color: white;
+  height: 200px;
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+.box-notification::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+
+.bell {
+  animation: rota 0.8s infinite ease-in;
+  transform: rotate(45deg);
+  color: rgb(227, 151, 38);
+}
+
+.bell:hover {
+  animation: rota 0.3s infinite ease-in;
+}
+
+@keyframes rota {
+  from {
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+    /* color: blue; */
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}

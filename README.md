@@ -1,7 +1,7 @@
 # Dentist Booking System
 Dentist Booking System is a web-based application that manages dental center appointments, information and allow patient to book an appointment with many provided options for patients to choose from on the system.
 
-<img src="https://github.com/light-tree/Dentist-Booking-System/blob/main/images/homescreen.jpg" style="
+<img src="https://github.com/light-tree/Dentist-Booking-System/blob/main/images/homescreen.JPG" style="
 	width:50%;
 	display: block;
     	margin-left: auto;
@@ -14,7 +14,7 @@ Contributors: 4
 
 ### Technologies
 
-<img src="https://github.com/light-tree/Dentist-Booking-System/blob/main/images/technologies.jpg" style="
+<img src="https://raw.githubusercontent.com/light-tree/Dentist-Booking-System/main/images/technologies.JPG" style="
 	width:50%;
 	display: block;
     	margin-left: auto;

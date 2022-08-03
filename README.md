@@ -60,6 +60,23 @@ Dentist Booking System is a web-based application that manages dental center app
    npm start
    ```
 
+
+
+To log into the system, you can use the following account:
+
+Admin account:
+* 0987121963
+
+Staff account:
+* 0345741884
+* 0345741885
+
+Patient account:
+* 0345741883
+* 0973073310
+
+With a common password of: 12345678
+
 ### Language Support
 * Vietnamese for screens of customer (patient and guest)
 * English for screens of staff and admin
